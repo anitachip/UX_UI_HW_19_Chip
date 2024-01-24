@@ -1,0 +1,104 @@
+/* Desktop Typography */
+h1 {
+   /* desktop/H1 - Staatliches - 64px */
+    font-family: 'Staatliches', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 8.96px;
+}
+
+h2{
+   /* desktop/H2 - Staatliches - 50px */
+    font-family: 'Staatliches', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7px;
+}
+
+h3{
+    /* desktop/H3 - Staatliches - 40px */
+    font-family: 'Staatliches', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.6px;
+}
+
+h4{
+    /* desktop/H4 - Staatliches - 32px */
+    font-family: 'Staatliches', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h5{
+    /* desktop/H5 - Source Sans 3 Semibold - 32px */
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h6{
+    /* desktop/H6 - Source Sans 3 - 24px */
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p{
+    /* desktop/p - Source Sans 3 - 36 px */
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Color */
+.color-white{
+    color: #FAFAFA
+}
+
+.color-black{
+    color: #272727
+}
+
+.color-red{
+    color: #C3A0A2
+}
+
+.color-orange{
+    color: #D49E89
+}
+
+.color-yellow{
+    color: #E6D7B8
+}
+
+.color-green{
+    color: #AEC8B3
+}
+
+.color-blue{
+    color: #AEC6CF
+}
+
+.color-purple{
+    color: #B7AECF
+}
+
+/* a tag Remove Underline */
+a{
+    text-decoration: none;
+}
