@@ -1,27 +1,19 @@
 /* Desktop Typography */
 h1 {
-   /* desktop/H1 - Staatliches - 64px */
-    font-family: 'Staatliches', sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 8.96px;
+   /* desktop/H1 - Staatliches - 46px */
+   color: #000;
+   font-family: Staatliches;
+   font-size: 46px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 6.44px;
 }
 
 h2{
-   /* desktop/H2 - Staatliches - 50px */
-    font-family: 'Staatliches', sans-serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 7px;
-}
-
-h3{
-    /* desktop/H3 - Staatliches - 40px */
-    font-family: 'Staatliches', sans-serif;
+   /* desktop/H2 - Staatliches - 40px */
+    color: #000;
+    font-family: Staatliches;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -29,19 +21,32 @@ h3{
     letter-spacing: 5.6px;
 }
 
+h3{
+    /* desktop/H3 - Staatliches - 34px */
+    color: #000;
+    font-family: Staatliches;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.76px;
+}
+
 h4{
-    /* desktop/H4 - Staatliches - 32px */
-    font-family: 'Staatliches', sans-serif;
-    font-size: 32px;
+    /* desktop/H4 - Staatliches - 30px */
+    color: #000;
+    font-family: Staatliches;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 h5{
-    /* desktop/H5 - Source Sans 3 Semibold - 32px */
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 32px;
+    /* desktop/H5 - Source Sans 3 Semibold - 28px */
+    color: #000;
+    font-family: "Source Sans 3";
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -57,9 +62,10 @@ h6{
 }
 
 p{
-    /* desktop/p - Source Sans 3 - 36 px */
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 36px;
+    /* desktop/p - Source Sans 3 - 20 px */
+    color: #000;
+    font-family: "Source Sans 3";
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -132,6 +138,8 @@ h1, h2, h3, h4, h5, h6, p{
     width: 1320px;
     justify-content: space-between;
     align-items: center;   
+
+    margin-bottom: 75px
 } /* this helps align the project card and the mockup image next to it */
 
 .section-title{
@@ -139,8 +147,8 @@ h1, h2, h3, h4, h5, h6, p{
     width: 1320px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 57px;
-    margin-top: 100px;
+    margin-bottom: 47px;
+    margin-top: 70px;
 } /* this helps align the section title to the left of the project cards */
 
 
@@ -156,7 +164,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* Nav */
 .navigation{
     display: flex;
-    height: 100px;
+    height: 90px;
     padding: 20px 30px;
     justify-content: space-between;
     align-items: center;
@@ -182,7 +190,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* Home Page Welcome */
 .homepage-welcome{
     display: flex;
-    width: 857px;
+    width: 550px;
     padding: 52px 55px;
     flex-direction: column;
     gap: 10px; 
@@ -190,13 +198,13 @@ h1, h2, h3, h4, h5, h6, p{
     border-radius: 0px 90px;
     background: var(--light-muted-green, #AEC8B3);
 
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 /* Adventuroo */
 .adventuroo-card{
     display: flex;
-    width: 540px;
+    width: 440px;
     padding: 52px 55px;
     flex-direction: column;
     gap: 10px;
@@ -209,7 +217,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* SnapTaskIt */
 .snaptaskit-card{
     display: flex;
-    width: 540px;
+    width: 440px;
     padding: 52px 55px;
     flex-direction: column;
     gap: 10px;
@@ -222,7 +230,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* Evanston */
 .evanston-card{
     display: flex;
-    width: 540px;
+    width: 440px;
     padding: 52px 55px;
     flex-direction: column;
     gap: 10px;
@@ -232,6 +240,110 @@ h1, h2, h3, h4, h5, h6, p{
     background: var(--muted-blue, #AEC6CF);
 }
 
+/* About Me */
+/* Hello! About me */
+.aboutMe-card{
+    display: flex;
+    width: 400px;
+    padding: 52px 55px;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 90px 0px;
+    background: var(--muted-blue, #AEC6CF);
+}
+
+/* About Me Contact */
+.aboutMe-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 53px;
+}
+
+.socialMedia-section{
+    display: flex;
+    width: 378.962px;
+    padding: 9.618px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutMe-subsection{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* Skills & Tools on About Page */
+
+.skills-title{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 47px;
+    margin-top: 70px;
+
+}
+
+.skills-subsection{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userResearch-card{
+    display: flex;
+    width: 470px;
+    padding: 52px 40px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    border-radius: 90px 0px 0px 90px;
+    background: var(--muted-red, #C3A0A2);
+}
+
+.design-card{
+    display: flex;
+    width: 412px;
+    padding: 52px 40px;
+    flex-direction: column;
+    flex-shrink: 0; 
+
+    border-radius: 90px 90px 0px 0px;
+    background: var(--muted-orange, #D49E89);
+}
+
+.researchDesign-margin{
+    margin-bottom: 60px;
+}
+
+.interpersonal-card{
+    display: flex;
+    width: 412px;
+    padding: 52px 40px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    border-radius: 0px 0px 90px 90px;
+    background: var(--muted-yellow, #E6D7B8);
+}
+
+.tools-card{
+    display: flex;
+    width: 469px;
+    padding: 52px 40px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    border-radius: 0px 90px 90px 0px;
+    background: var(--light-muted-green, #AEC8B3);
+}
 /* Footer */
 .footer{
     display: flex;
