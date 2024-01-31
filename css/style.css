@@ -142,6 +142,11 @@ h1, h2, h3, h4, h5, h6, p{
     margin-bottom: 75px
 } /* this helps align the project card and the mockup image next to it */
 
+.work-subsection:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
+}
+
 .section-title{
     display: flex;
     width: 1320px;
@@ -201,6 +206,11 @@ h1, h2, h3, h4, h5, h6, p{
     margin-top: 70px;
 }
 
+.homepage-welcome:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
+}
+
 /* Adventuroo */
 .adventuroo-card{
     display: flex;
@@ -254,6 +264,11 @@ h1, h2, h3, h4, h5, h6, p{
     background: var(--muted-blue, #AEC6CF);
 }
 
+.aboutMe-card:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
+}
+
 /* About Me Contact */
 .aboutMe-contact{
     display: flex;
@@ -262,12 +277,32 @@ h1, h2, h3, h4, h5, h6, p{
     gap: 53px;
 }
 
+.portrait:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
+}
+
 .socialMedia-section{
     display: flex;
     width: 378.962px;
     padding: 9.618px 0px;
     justify-content: space-between;
     align-items: center;
+}
+
+.linkedin-icon:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
+}
+
+.email-icon:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
+}
+
+.behance-icon:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
 }
 
 .aboutMe-subsection{
@@ -308,6 +343,11 @@ h1, h2, h3, h4, h5, h6, p{
     background: var(--muted-red, #C3A0A2);
 }
 
+.userResearch-card:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
+}
+
 .design-card{
     display: flex;
     width: 412px;
@@ -317,6 +357,11 @@ h1, h2, h3, h4, h5, h6, p{
 
     border-radius: 90px 90px 0px 0px;
     background: var(--muted-orange, #D49E89);
+}
+
+.design-card:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
 }
 
 .researchDesign-margin{
@@ -334,6 +379,11 @@ h1, h2, h3, h4, h5, h6, p{
     background: var(--muted-yellow, #E6D7B8);
 }
 
+.interpersonal-card:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
+}
+
 .tools-card{
     display: flex;
     width: 469px;
@@ -343,6 +393,11 @@ h1, h2, h3, h4, h5, h6, p{
 
     border-radius: 0px 90px 90px 0px;
     background: var(--light-muted-green, #AEC8B3);
+}
+
+.tools-card:hover{
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
 }
 /* Footer */
 .footer{
